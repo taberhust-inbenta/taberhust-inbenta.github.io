@@ -6,7 +6,7 @@ dotenv.config({ quiet: true });
 const PORT = process.env.PORT || 8080;
 
 const server = createServer({
-    root: './pages/static',
+    root: './docs/test-site',
 });
 
 server.listen(PORT, () => {
